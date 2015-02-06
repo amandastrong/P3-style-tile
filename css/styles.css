@@ -54,6 +54,10 @@ a{
 a:hover, a.on{
 	color: #fbfefb;
 }
+
+.container2{
+	text-align: center;
+}
  
 /* Set Your Own Typography */
 
