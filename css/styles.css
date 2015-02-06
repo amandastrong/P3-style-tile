@@ -1,0 +1,117 @@
+/* Layout for Style Tile
+Feel free to change */
+section {
+	margin: 20px 0;
+}
+
+.color-1{
+  background-color: #fbfefb;
+}
+
+.color-2{
+  background-color: #bccab6;
+}
+
+.color-3{
+  background-color:#ACBDA4;
+}
+
+.color-4{
+  background-color:#DBF0D0;
+}
+
+.pattern-1{
+  background-color: #DBF0D0;
+		background-image: 
+		radial-gradient(circle at 100% 150%, #DBF0D0 24%, white 25%, white 28%, #DBF0D0 29%, #DBF0D0 36%, white 36%, white 40%, transparent 40%, transparent),
+		radial-gradient(circle at 0    150%, #DBF0D0 24%, white 25%, white 28%, #DBF0D0 29%, #DBF0D0 36%, white 36%, white 40%, transparent 40%, transparent),
+		radial-gradient(circle at 50%  100%, white 10%, #DBF0D0 11%, #DBF0D0 23%, white 24%, white 30%, #DBF0D0 31%, #DBF0D0 43%, white 44%, white 50%, #DBF0D0 51%, #DBF0D0 63%, white 64%, white 71%, transparent 71%, transparent),
+		radial-gradient(circle at 100% 50%, white 5%, #DBF0D0 6%, #DBF0D0 15%, white 16%, white 20%, #DBF0D0 21%, #DBF0D0 30%, white 31%, white 35%, #DBF0D0 36%, #DBF0D0 45%, white 46%, white 49%, transparent 50%, transparent),
+		radial-gradient(circle at 0    50%, white 5%, #DBF0D0 6%, #DBF0D0 15%, white 16%, white 20%, #DBF0D0 21%, #DBF0D0 30%, white 31%, white 35%, #DBF0D0 36%, #DBF0D0 45%, white 46%, white 49%, transparent 50%, transparent);
+		background-size:100px 50px;
+		font-family: 'Josefin Slab', serif;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.pattern-1, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover, a.on{
+	color: #fbfefb;
+}
+ 
+/* Set Your Own Typography */
+
+body{
+  font-family: 'Josefin Slab', serif;
+}
+ 
+/* Set Your Own Margin & Padding */
+
+h1, h2, h3, h4{
+	margin: 0;
+  padding: 15px
+}
+
+em, p{
+ padding-left: 20px;
+}
+
+/* Header and Logo Styling */
+
+#logo{
+	margin:5px 360px;
+}
+
+#page ul{
+	width: 940px;
+	padding: 15px;
+	margin: 0 auto;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	text-align: center;
+}
+
+#page li{
+	display: inline;
+	margin: 0 auto;
+	font-size: 22px;
+}
+
+#page p{
+	text-align: center;
+	width:700px;
+	margin: 20px auto;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+#page a{
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;
+}
+
+#page a:hover, a.on{
+	color: #fbfefb;
+	background-color: #bccab6;
+}
+ 
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
